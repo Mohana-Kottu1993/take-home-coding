@@ -59,3 +59,6 @@ Note the order of the  editors names does not matter;
 ]
 ```
 Your API should be able to be run and tested by CVS Team with our own bearer token.
+#### .ENV
+PORT, API_KEY, TOKEN can be changed in .ENV
+API Endpoint - localhost:${PORT}/movies?year=${year}&page=${page}
